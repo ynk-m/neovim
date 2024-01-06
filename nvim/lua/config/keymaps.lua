@@ -18,3 +18,10 @@ vim.keymap.set("n", "<leader>o", "o<ESC>", { noremap = true, silent = false })
 -- jump to start/end of line
 vim.keymap.set({ "v", "n" }, "H", "^", { noremap = true, silent = false })
 vim.keymap.set({ "v", "n" }, "L", "$", { noremap = true, silent = false })
+
+--swithc between buffers
+vim.keymap.set("n", "<leader>l", ":bnext<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>h", ":bprevious<CR>", { noremap = true, silent = false })
+
+--save file
+vim.keymap.set("n", "<leader>fw", ":w<CR>", { noremap = true, silent = false })
