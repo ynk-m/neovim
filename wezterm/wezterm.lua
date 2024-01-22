@@ -15,7 +15,7 @@ config.color_scheme = "Catppuccin Frappe"
 config.font =
 	wezterm.font("BigBlueTerm437 Nerd Font Mono", { weight = "Regular", stretch = "Normal", style = "Normal" })
 -- transparency
-config.window_background_opacity = 0.95
+config.window_background_opacity = 0.90
 
 -- and finally, return the configuration to wezterm
 return config
