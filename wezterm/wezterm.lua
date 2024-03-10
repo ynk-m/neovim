@@ -10,10 +10,10 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
-config.color_scheme = "Catppuccin Frappe"
+config.color_scheme = "ayu"
 -- Font
 config.font =
-	wezterm.font("BigBlueTerm437 Nerd Font Mono", { weight = "Regular", stretch = "Normal", style = "Normal" })
+	wezterm.font("BigBlueTermPlus Nerd Font Mono", { weight = "Regular", stretch = "Normal", style = "Normal" })
 -- transparency
 config.window_background_opacity = 0.90
 
